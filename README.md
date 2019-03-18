@@ -55,8 +55,6 @@ pip3 install numpy matplotlib scipy requests pandas scikit-learn
 ## Organisation du repo 
 Ce repo suit l'organisation de votre Drive. 
 
-### Les séances et exercices
+## Les séances et exercices
 Les séances sont donc numérotées semaines par semaines, *S-i* fait donc référence à *la semaine numéro i*. Chaque dossier S-i contient donc deux sous dossier S-iA et S-iB, où A correspond à la séance du lundi et B celle du samedi.
 
-### Les projets 
-Comme vous le savez, chaque semaine vous devez faire des projets. **Les projets seront déposés sur la branche DEV dans le repo Projets à la racine de ce git.** 
