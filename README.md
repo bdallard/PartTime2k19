@@ -58,3 +58,12 @@ Ce repo suit l'organisation de votre Drive.
 ## Les séances et exercices
 Les séances sont donc numérotées semaines par semaines, *S-i* fait donc référence à *la semaine numéro i*. Chaque dossier S-i contient donc deux sous dossier S-iA et S-iB, où A correspond à la séance du lundi et B celle du samedi.
 
+## Git Kesako
+Voir la [séance 2-A](https://github.com/bdallard/PartTime2k19/tree/master/S2/S2-A).
+
+Pour ceux qui n'arrivent pas à pull parce qu'ils ont fait des modif dans le repo, lancer la commande : 
+```
+git stash
+git pull
+git stash pop
+```
