@@ -1,0 +1,15 @@
+Columns:
+user_id : the Id of the user. Can be joined to user_id in user_table
+timestamp : the date and time when the user hit for the first time company XYZ webpage. It is in user local time
+source : marketing channel that led to the user coming to the site. It can be:
+ads-["google", "facebook", "bing", "yahoo", "other"]. That is, user coming from google ads, yahoo ads, etc.
+seo - ["google", "facebook", "bing", "yahoo", "other"]. That is, user coming from google search, yahoo, facebook, etc.
+friend_referral : user coming from a referral link of another user
+direct_traffic: user coming by directly typing the address of the site on the browser
+device : user device. Can be mobile or web
+operative_system : user operative system. Can be: "windows", "linux", "mac" for web, and "android", "iOS" for mobile.  Other  if it is none of the above
+test: whether the user was in the test (i.e. 1 -> higher price) or in control (0 -> old lower price)
+price : the price the user sees. It should match test
+converted : whether the user converted (i.e. 1 -> bought the software) or not (0 -> left the site without buying it).
+
+
